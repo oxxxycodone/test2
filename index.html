@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video with Different Positions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+        <div class="text">We're here</div>
+        <div class="video-container" data-position="10% 20%"></div>
+        <div class="text">to make healthy</div>
+        <div class="video-container" data-position="20% 90%"></div>
+        <div class="text">living effortless, 
+            so you can</div>
+        <div class="video-container" data-position="80% 40%"></div>
+        <div class="text">live longer and happier</div>
+        <div class="video-container" data-position="60% 50%"></div>
+    </div>
+    
+  </div>
+  <video id="source-video" src="/video/video.mp4" autoplay loop muted style="display: none;"></video>
+  <script src="script.js"></script>
+</body>
+</html>

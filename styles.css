@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .video-container {
+    display: inline-block;
+    max-width: 100%;
+    min-width: 30%;
+    height: 60px;
+    background-color: orange;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text{
+    font-size: 100px;
+    margin-inline: 8px;
+  }
